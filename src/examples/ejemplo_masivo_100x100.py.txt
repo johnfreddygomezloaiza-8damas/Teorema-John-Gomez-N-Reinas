@@ -1,0 +1,23 @@
+import sys
+import os
+import time
+
+# Permitir que Python encuentre la carpeta src
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from src.gomez_board import generar_tablero_gomez, calcular_constante_gomez
+from src.solvers import inicializar_optimizador_gomez
+
+def ejecutar_prueba():
+    N = 100
+    matriz = generar_tablero_gomez(N)
+    K_N = calcular_constante_gomez(N)
+    max_fijo, min_fijo = inicializar_optimizador_gomez(matriz, N, K_N)
+    
+    print(f"🚀 Motor de Supercómputo del Teorema de John Gómez Inicializado")
+    print(f" -> Dimensiones del Tablero: {N}x{N}")
+    print(f" -> Constante de Poda Aritmética Activa: K_100 = {K_N}")
+    print(f" -> Tablas estáticas precargadas en RAM con éxito.")
+
+if __name__ == "__main__":
+    ejecutar_prueba()
+

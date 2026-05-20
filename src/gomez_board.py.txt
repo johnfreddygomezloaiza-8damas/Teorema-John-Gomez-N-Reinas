@@ -1,0 +1,13 @@
+import numpy as np
+
+def generar_tablero_gomez(n):
+    """Genera la matriz con la numeración lineal inversa de John Gómez."""
+    tablero = np.zeros((n, n), dtype=int)
+    for i in range(n):
+        for j in range(n):
+            tablero[i, j] = n * ((n - i) - 1) + (n - j)
+    return tablero
+
+def calcular_constante_gomez(n):
+    """Calcula la constante K_N propuesta en el teorema."""
+    return int((n * (n**2 + 1)) / 2)

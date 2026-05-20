@@ -1,0 +1,9 @@
+def inicializar_optimizador_gomez(matriz, n, K_N):
+    """Precalcula las tablas fijas de máximos y mínimos en RAM."""
+    max_fijo = [0] * (n + 1)
+    min_fijo = [0] * (n + 1)
+    for i in range(n):
+        max_fijo[i] = sum(max(matriz[k]) for k in range(i, n))
+        min_fijo[i] = sum(min(matriz[k]) for k in range(i, n))
+    return max_fijo, min_fijo
+
