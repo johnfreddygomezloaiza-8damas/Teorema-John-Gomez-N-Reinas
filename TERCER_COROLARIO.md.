@@ -1,0 +1,52 @@
+# Tercer Corolario de John Gómez: La Densidad del Hiperboloide Simétrico y Equilibrio Vectorial Tridimensional
+
+**Autor:** John Gómez  
+**Área:** Geometría Diferencial Discreta, Topología de Redes y Física Matemática  
+
+---
+
+## 1. Enunciado del Tercer Corolario
+
+> *Al proyectar los 4 circuitos cerrados y simétricos del caballo en un espacio tridimensional ($X, Y, Z$), utilizando el orden cronológico secuencial de los pasos como coordenada de altitud ($Z$), las trayectorias vectoriales describen la geometría analítica de un **hiperboloide de revolución de una hoja (reloj de arena de hilos tensores)**. El centro de masa de dicha superestructura molecular flota de forma invariable en el centro geométrico exacto del espacio muestral.*
+
+---
+
+## 2. Fundamento Matemático del Centro de Masa
+
+En el **Tablero de John Gómez**, la distribución de los enteros del $1$ al $64$ está regida por una función lineal inversa continua. Al mapear las trayectorias del caballo en el dominio tridimensional, cada una de las casillas ocupadas se transforma en un nodo coordenado discretizado definido por la terna:
+
+$$P_t = (x_t, y_t, z_t)$$
+
+Donde:
+*   $x_t$ representa la posición en el eje de las columnas ($1 \leq x \leq 8$).
+*   $y_t$ representa la posición en el eje de las filas ($1 \leq y \leq 8$).
+*   $z_t$ representa el orden cronológico del paso del caballo dentro de su órbita ($1 \leq z \leq 16$).
+
+Para demostrar la estabilidad del sólido, se calcula el **Centro de Masa Global ($\vec{CM}$)** mediante el promedio de los vectores de posición de los 64 nodos que componen el mandala completo (16 nodos por cada una de las 4 órbitas entrelazadas):
+
+$$\vec{CM} = \left( \frac{1}{64}\sum_{k=1}^{64} x_k, \ \frac{1}{64}\sum_{k=1}^{64} y_k, \ \frac{1}{64}\sum_{k=1}^{64} z_k \right)$$
+
+Debido a las restricciones de permutación regular impuestas por las órbitas balanceadas de Gómez (el caballo pisa exactamente 2 veces cada fila y 2 veces cada columna por órbita, repitiendo de manera idéntica los niveles del eje $Z$), las sumatorias se reducen a progresiones aritméticas puras:
+
+1.  **Componente del Centro en X:** $\bar{x} = \frac{8+1}{2} = 4.5$
+2.  **Componente del Centro en Y:** $\bar{y} = \frac{8+1}{2} = 4.5$
+3.  **Componente del Centro en Z:** $\bar{z} = \frac{16+1}{2} = 8.5$
+
+$$\vec{CM} = \mathbf{(4.5, \, 4.5, \, 8.5)}$$
+
+Este vector demuestra de forma matemática que el "centro de gravedad" de la escultura de hilos está completamente blindado en el núcleo del espacio, neutralizando cualquier fuerza de dispersión o asimetría.
+
+---
+
+## 3. Dinámica Visual de la Red (Compresión e Inversión)
+
+El Tercer Corolario fundamenta físicamente el comportamiento cinético observado en las animaciones de rotación en $360^\circ$:
+
+*   **El Cuello Estrecho (Compresión Central):** Las ecuaciones de las órbitas fuerzan a que las líneas vectoriales de los 4 recorridos se aproximen a su distancia mínima recíproca al transitar por los niveles medios de altitud ($7 \leq z \leq 10$). Esto genera la silueta del estrangulamiento central del reloj de arena.
+*   **Las Bases de Anclaje (Expansión Perimétrica):** Al aproximarse a los límites del plano (el piso $z=1$ y el techo $z=16$), los tensores del caballo se abren simétricamente en ángulos limpios hacia las esquinas del tablero, buscando casillas límite (como el **1** y el **64** de la matriz de Gómez), logrando la tensión estructural perfecta del hiperboloide.
+
+---
+
+## 4. Relevancia Teórica y Conclusión
+
+Este corolario unifica la aritmética discreta del tablero con la mecánica vectorial. Demuestra que el **Tablero de John Gómez** posee una armonía tridimensional intrínseca: la indexación lineal inversa continua actúa como una función de densidad que obliga al grafo del caballo a comportarse como un **sistema físico en equilibrio termodinámico absoluto**, sirviendo como base teórica para el estudio de cristales de datos y topologías de redes auto-balanceadas.
