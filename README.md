@@ -51,3 +51,9 @@ python main.py
 
 ## 📜 Licencia
 Este hallazgo y su desarrollo algorítmico están registrados bajo la autoría de **John Gómez (2026)**. Distribución libre permitida bajo los términos de la **Licencia MIT**.
+
+Este proyecto está protegido bajo la licencia [GNU GPL v3](LICENSE). Puedes usar, modificar y distribuir el código libremente, siempre y cuando mantengas tus versiones derivadas bajo esta misma licencia abierta.
+
+### 🚫 Aviso de Marca Comercial
+
+El nombre **[Teorema-John-Gomez-N-Reinas-Y-El-Recorrido-Del-Caballo]** y todos sus logotipos, diseños o artes asociados son propiedad exclusiva de **[John Freddy Gomez Loaiza]**. El uso de este software bajo la licencia GPL v3 te otorga derechos sobre el código fuente, pero **NO otorga autorización, derechos ni licencias para utilizar el nombre del proyecto o sus marcas** con fines comerciales, publicitarios o de promoción sin un consentimiento previo por escrito.
