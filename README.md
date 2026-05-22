@@ -26,12 +26,11 @@ $$K_N = \frac{N(N^2 + 1)}{2}$$
 
 Para un tablero de ajedrez convencional ($8 \times 8$), las 92 soluciones existentes clavan de forma obligatoria la constante **260**. El teorema escala con precisión milimétrica hacia el *Big Data*, fijando constantes exactas de **62,525** para tableros de $50 \times 50$ y **500,050** para tableros masivos de $100 \times 100$.
 
-#### Impacto Inmediato en la Ingeniería de Software
-A nivel de desarrollo abierto (*Open Source*), el hallazgo ha sido traducido a código de alto rendimiento en Python, implementando una arquitectura de **poda estática en memoria RAM**. 
+#### Impacto Inmediato en la Ingeniería de Software el hallazgo ha sido traducido a código de alto rendimiento en Python, implementando una arquitectura de **poda estática en memoria RAM**. 
 
 "Al almacenar los límites numéricos de la matriz en vectores fijos de la memoria caché, el procesador evalúa la validez de una rama en tiempo constante $O(1)$ mediante sumas aritméticas simples", explica el autor. Si la tendencia del árbol de búsqueda no converge hacia la constante de Gómez, el procesador aborta la rama entera. Esta optimización evita trillones de validaciones diagonales redundantes, reduciendo el tiempo de procesamiento computacional entre un **12% y un 25%** en sistemas de escala masiva.
 
-El compendio completo, los scripts automatizados de supercómputo y los modelos de visualización fractal en 3D han sido liberados públicamente bajo la Licencia MIT en la plataforma GitHub, quedando a disposición de la comunidad científica e informática global para su implementación en sistemas de enrutamiento, redes de telecomunicaciones y logística avanzada.
+El compendio completo, los scripts automatizados de supercómputo y los modelos de visualización fractal en 3D estan en la plataforma GitHub, quedando a disposición de la comunidad científica e informática global para su implementación en sistemas de enrutamiento, redes de telecomunicaciones y logística avanzada.
 
 ---
 
@@ -50,7 +49,6 @@ python main.py
 ```
 
 ## 📜 Licencia
-Este hallazgo y su desarrollo algorítmico están registrados bajo la autoría de **John Gómez (2026)**. Distribución libre permitida bajo los términos de la **Licencia MIT**.
 
 Este proyecto está protegido bajo la licencia [GNU GPL v3](LICENSE). Puedes usar, modificar y distribuir el código libremente, siempre y cuando mantengas tus versiones derivadas bajo esta misma licencia abierta.
 
