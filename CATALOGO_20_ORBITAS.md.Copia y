@@ -1,3 +1,19 @@
+
+# Copyright (C) 2026 [John Freddy Gomez Loaiza]
+#
+# Este programa es software libre: usted puede redistribuirlo y/o modificarlo 
+# bajo los términos de la Licencia Pública General GNU publicada por la 
+# Free Software Foundation, ya sea la versión 3 de la Licencia, o cualquier versión posterior.
+#
+# Este programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA 
+# GARANTÍA; ni siquiera la garantía implícita de COMERCIABILIDAD o APTITUD PARA UN 
+# PROPÓSITO PARTICULAR. Consulte la Licencia Pública General GNU para más detalles.
+#
+# Debería haber recibido una copia de la Licencia Pública General GNU junto con este 
+# programa. Si no es así, consulte <https://gnu.org>.
+
+
+
 # Catálogo Maestro de las 20 Órbitas Fundamentales del Segundo Corolario de John Gómez
 
 Este documento registra la indexación de las **20 órbitas fundamentales únicas de 16 pasos** que existen en el tablero de $8 \times 8$. Absolutamente todas ellas cumplen con la densidad de 2 visitas por fila/columna y clavan de forma invariable la constante analítica de **520**.
